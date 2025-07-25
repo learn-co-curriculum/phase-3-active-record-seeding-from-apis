@@ -10,12 +10,10 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_07_18_144445) do
-
+ActiveRecord::Schema[8.0].define(version: 2021_07_18_144445) do
   create_table "spells", force: :cascade do |t|
     t.string "name"
     t.integer "level"
     t.string "description"
   end
-
 end
